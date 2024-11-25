@@ -48,6 +48,7 @@
             // 
             // splitContainer1.Panel1
             // 
+            splitContainer1.Panel1.BackColor = Color.Thistle;
             splitContainer1.Panel1.Controls.Add(BtnCancelarHilo);
             splitContainer1.Panel1.Controls.Add(BtnIniciarTarea);
             splitContainer1.Panel1.Controls.Add(BtnIniciarHilo);
@@ -56,12 +57,13 @@
             // splitContainer1.Panel2
             // 
             splitContainer1.Panel2.Controls.Add(TxtResultado);
-            splitContainer1.Size = new Size(949, 453);
-            splitContainer1.SplitterDistance = 316;
+            splitContainer1.Size = new Size(954, 408);
+            splitContainer1.SplitterDistance = 317;
             splitContainer1.TabIndex = 0;
             // 
             // BtnCancelarHilo
             // 
+            BtnCancelarHilo.Font = new Font("Arial", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             BtnCancelarHilo.Location = new Point(47, 196);
             BtnCancelarHilo.Name = "BtnCancelarHilo";
             BtnCancelarHilo.Size = new Size(163, 54);
@@ -73,9 +75,10 @@
             // BtnIniciarTarea
             // 
             BtnIniciarTarea.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            BtnIniciarTarea.Font = new Font("Arial", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             BtnIniciarTarea.Location = new Point(47, 138);
             BtnIniciarTarea.Name = "BtnIniciarTarea";
-            BtnIniciarTarea.Size = new Size(163, 52);
+            BtnIniciarTarea.Size = new Size(164, 52);
             BtnIniciarTarea.TabIndex = 2;
             BtnIniciarTarea.Text = "Iniciar Tarea";
             BtnIniciarTarea.UseVisualStyleBackColor = true;
@@ -84,9 +87,10 @@
             // BtnIniciarHilo
             // 
             BtnIniciarHilo.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            BtnIniciarHilo.Font = new Font("Arial", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             BtnIniciarHilo.Location = new Point(47, 82);
             BtnIniciarHilo.Name = "BtnIniciarHilo";
-            BtnIniciarHilo.Size = new Size(163, 50);
+            BtnIniciarHilo.Size = new Size(164, 50);
             BtnIniciarHilo.TabIndex = 1;
             BtnIniciarHilo.Text = "Iniciar Hilo";
             BtnIniciarHilo.UseVisualStyleBackColor = true;
@@ -95,9 +99,10 @@
             // BtnSecuencial
             // 
             BtnSecuencial.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            BtnSecuencial.Font = new Font("Arial", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             BtnSecuencial.Location = new Point(47, 30);
             BtnSecuencial.Name = "BtnSecuencial";
-            BtnSecuencial.Size = new Size(163, 46);
+            BtnSecuencial.Size = new Size(164, 46);
             BtnSecuencial.TabIndex = 0;
             BtnSecuencial.Text = "Iniciar Secuencial";
             BtnSecuencial.UseVisualStyleBackColor = true;
@@ -105,18 +110,19 @@
             // 
             // TxtResultado
             // 
+            TxtResultado.BackColor = Color.LightGreen;
             TxtResultado.Dock = DockStyle.Fill;
             TxtResultado.Location = new Point(0, 0);
             TxtResultado.Multiline = true;
             TxtResultado.Name = "TxtResultado";
-            TxtResultado.Size = new Size(629, 453);
+            TxtResultado.Size = new Size(633, 408);
             TxtResultado.TabIndex = 0;
             // 
             // FrmConcurrencia
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(949, 453);
+            ClientSize = new Size(954, 408);
             Controls.Add(splitContainer1);
             Name = "FrmConcurrencia";
             Text = "Demostracion de Concurrencia";
